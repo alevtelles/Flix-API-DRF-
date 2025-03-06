@@ -1,0 +1,43 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$PYTHONUPGRADELOGS*
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.dockerignore
+
+# Misc
+.DS_Store
+Thumbs.db
