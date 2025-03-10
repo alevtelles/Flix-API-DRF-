@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
                 ('birthday', models.DateField(blank=True, null=True)),
-                ('nationality', models.CharField(blank=True, choices=[('USA', 'Estados Unidos'), ('BRAZIL', 'Brasil'), ('ARG', 'Argentina'), ('MEX', 'México'), ('COL', 'Colômbia'), ('SPA', 'Espanha'), ('FRA', 'França'), ('ITA', 'Itália'), ('GER', 'Alemanha')], max_length=100, null=True)),
+                ('nationality', models.CharField(blank=True, choices=[('EUA', 'Estados Unidos'), ('BRAZIL', 'Brasil'), ('ARG', 'Argentina'), ('MEX', 'México'), ('COL', 'Colômbia'), ('ES', 'Espanha'), ('FRA', 'França'), ('ITA', 'Itália'), ('GER', 'Alemanha'), ('UK', 'Reino Unido'), ('PR', 'Porto Rico'), ('AU', 'Austrália'), ('ZA', 'África do Sul'), ('NZ', 'Nova Zelândia')], max_length=100, null=True)),
             ],
         ),
     ]
