@@ -2,15 +2,21 @@ from django.db import models
 
 
 NATIONALITY_CHOICES = (
-    ('USA', 'Estados Unidos'),
+    ('EUA', 'Estados Unidos'),
     ('BRAZIL', 'Brasil'),
     ('ARG', 'Argentina'),
     ('MEX', 'México'),
     ('COL', 'Colômbia'),
-    ('SPA', 'Espanha'),
+    ('ES', 'Espanha'),
     ('FRA', 'França'),
     ('ITA', 'Itália'),
     ('GER', 'Alemanha'),
+    ('UK', 'Reino Unido'),
+    ('PR', 'Porto Rico'),
+    ('AU', 'Austrália'),
+    ('ZA', 'África do Sul'),
+    ('NZ', 'Nova Zelândia'),
+
 )
 
 
