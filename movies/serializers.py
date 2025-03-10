@@ -6,7 +6,6 @@ from genres.models import Genre
 from genres.serializers import GenreSerializer
 from actors.models import Actor
 
-
 class MovieModelSerializer(serializers.ModelSerializer):
     
     
